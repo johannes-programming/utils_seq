@@ -14,11 +14,13 @@ def cut(seq: "nucleotide sequence", start=None, stop=None):
     d = max(len(seq), stop)
     if b > c:
         return IndexError
-    return ('N' * (b - a)) + seq[b:c] + ('N' * (d - c))
+    return ("N" * (b - a)) + seq[b:c] + ("N" * (d - c))
 
-def tr(seq:"nucleotide sequence"):
+
+def tr(seq: "nucleotide sequence"):
     seq = _Seq.Seq(pad(seq))
     return str(seq.translate())
 
-def gravy(seq:"nucleotide sequence"):
+
+def gravy(seq: "nucleotide sequence"):
     return _gravy.calculate(tr(seq))

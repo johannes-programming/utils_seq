@@ -10,7 +10,7 @@ simple utils for seqs
 Installation
 ------------
 
-To install utils_seq, you can use `pip`. Open your terminal and run:
+To install ``utils_seq``, you can use ``pip``. Open your terminal and run:
 
 .. code-block:: bash
 
@@ -24,12 +24,14 @@ This project is licensed under the MIT License.
 Links
 -----
 
+* `Documentation <https://pypi.org/project/utils_seq>`_
 * `Download <https://pypi.org/project/utils-seq/#files>`_
-* `Source <https://github.com/johannes-programming/utils_seq>`_ 
+* `Source <https://github.com/johannes-programming/utils_seq>`_
 
 Credits
 -------
-- Author: Johannes
-- Email: johannes-programming@posteo.org
 
-Thank you for using utils_seq!
+* Author: Johannes
+* Email: johannes-programming@mailfence.com
+
+Thank you for using ``utils_seq``!
